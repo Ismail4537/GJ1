@@ -1,14 +1,48 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus", "Fungus.csproj", "{2B12EF0D-6C1B-5A9F-3B9E-449CACA11F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FungusEditor", "FungusEditor.csproj", "{29A5211B-BA8B-65C8-40FD-875A10858FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus.FungusLuaEditor", "Fungus.FungusLuaEditor.csproj", "{630D123E-F678-124D-4D33-1E4E4281DFF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus.FungusLuaJSONCheckerEditor", "Fungus.FungusLuaJSONCheckerEditor.csproj", "{2EEB41B6-A456-FB27-227F-766E4BC0776B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus.UsfxrEditor", "Fungus.UsfxrEditor.csproj", "{30095480-A140-36BA-9752-82B2C179BD9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus.LineEndingsEditor", "Fungus.LineEndingsEditor.csproj", "{AF23F14B-8E9E-C2BF-E574-E1BAAE0E9466}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{2B12EF0D-6C1B-5A9F-3B9E-449CACA11F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B12EF0D-6C1B-5A9F-3B9E-449CACA11F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B12EF0D-6C1B-5A9F-3B9E-449CACA11F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B12EF0D-6C1B-5A9F-3B9E-449CACA11F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A5211B-BA8B-65C8-40FD-875A10858FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A5211B-BA8B-65C8-40FD-875A10858FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A5211B-BA8B-65C8-40FD-875A10858FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A5211B-BA8B-65C8-40FD-875A10858FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630D123E-F678-124D-4D33-1E4E4281DFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630D123E-F678-124D-4D33-1E4E4281DFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630D123E-F678-124D-4D33-1E4E4281DFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630D123E-F678-124D-4D33-1E4E4281DFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EEB41B6-A456-FB27-227F-766E4BC0776B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEB41B6-A456-FB27-227F-766E4BC0776B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEB41B6-A456-FB27-227F-766E4BC0776B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEB41B6-A456-FB27-227F-766E4BC0776B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30095480-A140-36BA-9752-82B2C179BD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30095480-A140-36BA-9752-82B2C179BD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30095480-A140-36BA-9752-82B2C179BD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30095480-A140-36BA-9752-82B2C179BD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF23F14B-8E9E-C2BF-E574-E1BAAE0E9466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF23F14B-8E9E-C2BF-E574-E1BAAE0E9466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF23F14B-8E9E-C2BF-E574-E1BAAE0E9466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF23F14B-8E9E-C2BF-E574-E1BAAE0E9466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
