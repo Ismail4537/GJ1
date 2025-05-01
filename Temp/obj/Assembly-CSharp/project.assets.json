@@ -1,0 +1,200 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Fungus/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Fungus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fungus.dll": {}
+        }
+      },
+      "Fungus.FungusLuaEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Fungus": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Fungus.FungusLuaEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fungus.FungusLuaEditor.dll": {}
+        }
+      },
+      "Fungus.FungusLuaJSONCheckerEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Fungus": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Fungus.FungusLuaJSONCheckerEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fungus.FungusLuaJSONCheckerEditor.dll": {}
+        }
+      },
+      "Fungus.LineEndingsEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Fungus": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Fungus.LineEndingsEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fungus.LineEndingsEditor.dll": {}
+        }
+      },
+      "Fungus.UsfxrEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Fungus": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Fungus.UsfxrEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fungus.UsfxrEditor.dll": {}
+        }
+      },
+      "FungusEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Fungus": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FungusEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FungusEditor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fungus/1.0.0": {
+      "type": "project",
+      "path": "Fungus.csproj",
+      "msbuildProject": "Fungus.csproj"
+    },
+    "Fungus.FungusLuaEditor/1.0.0": {
+      "type": "project",
+      "path": "Fungus.FungusLuaEditor.csproj",
+      "msbuildProject": "Fungus.FungusLuaEditor.csproj"
+    },
+    "Fungus.FungusLuaJSONCheckerEditor/1.0.0": {
+      "type": "project",
+      "path": "Fungus.FungusLuaJSONCheckerEditor.csproj",
+      "msbuildProject": "Fungus.FungusLuaJSONCheckerEditor.csproj"
+    },
+    "Fungus.LineEndingsEditor/1.0.0": {
+      "type": "project",
+      "path": "Fungus.LineEndingsEditor.csproj",
+      "msbuildProject": "Fungus.LineEndingsEditor.csproj"
+    },
+    "Fungus.UsfxrEditor/1.0.0": {
+      "type": "project",
+      "path": "Fungus.UsfxrEditor.csproj",
+      "msbuildProject": "Fungus.UsfxrEditor.csproj"
+    },
+    "FungusEditor/1.0.0": {
+      "type": "project",
+      "path": "FungusEditor.csproj",
+      "msbuildProject": "FungusEditor.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Fungus >= 1.0.0",
+      "Fungus.FungusLuaEditor >= 1.0.0",
+      "Fungus.FungusLuaJSONCheckerEditor >= 1.0.0",
+      "Fungus.LineEndingsEditor >= 1.0.0",
+      "Fungus.UsfxrEditor >= 1.0.0",
+      "FungusEditor >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\iafat\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\GameDev\\UnityFile\\Temp\\GJ1\\Assembly-CSharp.csproj",
+      "projectName": "Assembly-CSharp",
+      "projectPath": "C:\\GameDev\\UnityFile\\Temp\\GJ1\\Assembly-CSharp.csproj",
+      "packagesPath": "C:\\Users\\iafat\\.nuget\\packages\\",
+      "outputPath": "C:\\GameDev\\UnityFile\\Temp\\GJ1\\Temp\\obj\\Assembly-CSharp\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\iafat\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\GameDev\\UnityFile\\Temp\\GJ1\\Fungus.csproj": {
+              "projectPath": "C:\\GameDev\\UnityFile\\Temp\\GJ1\\Fungus.csproj"
+            },
+            "C:\\GameDev\\UnityFile\\Temp\\GJ1\\Fungus.FungusLuaEditor.csproj": {
+              "projectPath": "C:\\GameDev\\UnityFile\\Temp\\GJ1\\Fungus.FungusLuaEditor.csproj"
+            },
+            "C:\\GameDev\\UnityFile\\Temp\\GJ1\\Fungus.FungusLuaJSONCheckerEditor.csproj": {
+              "projectPath": "C:\\GameDev\\UnityFile\\Temp\\GJ1\\Fungus.FungusLuaJSONCheckerEditor.csproj"
+            },
+            "C:\\GameDev\\UnityFile\\Temp\\GJ1\\Fungus.LineEndingsEditor.csproj": {
+              "projectPath": "C:\\GameDev\\UnityFile\\Temp\\GJ1\\Fungus.LineEndingsEditor.csproj"
+            },
+            "C:\\GameDev\\UnityFile\\Temp\\GJ1\\Fungus.UsfxrEditor.csproj": {
+              "projectPath": "C:\\GameDev\\UnityFile\\Temp\\GJ1\\Fungus.UsfxrEditor.csproj"
+            },
+            "C:\\GameDev\\UnityFile\\Temp\\GJ1\\FungusEditor.csproj": {
+              "projectPath": "C:\\GameDev\\UnityFile\\Temp\\GJ1\\FungusEditor.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
