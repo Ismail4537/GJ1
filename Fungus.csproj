@@ -296,9 +296,9 @@
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Interop\ProxyObjects\IProxyFactory.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\DataTypes\TypeValidationFlags.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\DataTypes\CoroutineState.cs" />
-    <Compile Include="Assets\Fungus\Scripts\Commands\Rigidbody2D\StopMotionRigidBody2D.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\Math\InvLerp.cs" />
     <Compile Include="Assets\Fungus\Scripts\Utils\GlobalVariables.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Commands\Rigidbody2D\StopMotionRigidBody2D.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\Collection\CollectionBaseTwoCollectionCommand.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Serialization\SerializationExtensions.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\PlayRandomSound.cs" />
